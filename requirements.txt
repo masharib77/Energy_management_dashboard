@@ -2,7 +2,6 @@ streamlit
 numpy
 pandas
 scikit-learn
-pickle
 datetime
 streamlit-echarts
 keras
