@@ -987,7 +987,7 @@ elif preferred_api == "Battery Storage Degradation":
         st_echarts(liquidfill_option)
 
     if example_chart == "Guage Ring":
-        st.title("Battery State of Health (SOH)")
+        st.title("Battery Performance")
         option = {
         "series": [
                 {
@@ -1045,7 +1045,7 @@ elif preferred_api == "Battery Storage Degradation":
         st_echarts(option, height="500px", key="echarts")
 
     if example_chart == "Line Chart":
-        st.title("Battery State of Health (SOH) Prediction")
+        st.title("Battery Storage")
         results = SOH_predict()
         results = sorted([round(float(value) / 10, 2) for value in results], reverse=True)
         current_time = datetime.now()
