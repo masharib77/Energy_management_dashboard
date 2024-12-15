@@ -164,7 +164,7 @@ st.sidebar.title("Configuration")
 # Dropdown 1: Choose preferred option
 preferred_api = st.sidebar.selectbox(
     "Choose your preferred Option:",
-    ["Home", "Power Consumption", "Battery Storage Degradation"]
+    ["Home", "Power Consumption", "Battery State of Capacity"]
 )
 col1, col2 = st.columns([9, 2])  # Adjust column widths as needed
 
